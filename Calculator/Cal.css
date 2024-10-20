@@ -1,0 +1,156 @@
+.text-center {
+    text-align: center;
+}
+
+h1 {
+    border: 3px solid black;
+    padding-right: 18px;
+    padding-left: 18px;
+    display: inline;
+    margin-left: 28%;
+    margin-right: auto;
+    font-size: 4vw; /* Responsive font size */
+}
+
+.mx-auto {
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.row {
+    margin: 8px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Allows buttons to wrap */
+}
+
+.button {
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 180px;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    width: 23%;
+    margin-bottom: 10px;
+}
+
+.button:hover {
+    background-color: lightgray;
+}
+
+.row input {
+    font-size: 1.5rem;
+    height: 50px;
+    display: inline;
+    justify-content: center;
+    /* width: 100%; */
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+    box-shadow: 2px 5px 5px black;
+    background-color: white;
+    color: black;
+    text-align: right;
+    font-weight: bolder;
+}
+
+.ubuntu-bold-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.bor {
+    padding: 20px 35px;
+    /* width: 100%; */
+    background-color: gray;
+    display: inline;
+    justify-content: center;
+}
+
+.bor1 {
+    margin-top: 0;
+    background-color: black;
+    padding: 10px;
+    width: 100%;
+    max-width: 400px; /* Maximum width for larger screens */
+    height: auto;
+    margin: auto;
+}
+
+.resetbutton {
+    margin-top: 10px;
+    padding: 0 13px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bt {
+    margin-top: 5px;
+}
+
+.clr {
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 180px;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    width: 20%;
+    height:70px;f
+    /* margin-bottom: 10px;
+    margin-left: auto; */
+}
+
+.conatainer {
+    margin-top: 20px;
+}
+
+body {
+    background: linear-gradient(red, yellow, green);
+}
+
+@media only screen and (max-width: 768px) {
+    .button {
+        font-size: 1.2rem;
+        width: 23%;
+    }
+
+    h1 {
+        font-size: 5vw;
+    }
+}
+
+
+@media only screen and (max-width: 480px) {
+    .button {
+        font-size: 1rem;
+        width: 23%;
+    }
+
+    h1 {
+        font-size: 6vw;
+        margin-left: 10%;
+    }
+
+    .row input {
+        font-size: 1rem;
+        height: 40px;
+    }
+}
